@@ -1,0 +1,81 @@
+html {
+    width: 100vw;
+}
+
+body {
+    background-color: var(--cordefundo);
+    color: white;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 10px;
+    border-bottom: 3px solid var(--cordeborda);
+}
+
+.logo h1 {
+    text-shadow: 7px 9px 5px var(--cordeborda);
+}
+
+.logo .menu ul {
+    display: flex;
+    align-items: center;
+}
+
+.logo .menu  ul li {
+    border-right: 2px solid var(--cordeborda);
+    border-bottom: 2px solid var(--cordeborda);
+    border-radius: 10px;
+    margin-right: 15px;
+    padding: 5px 15px;
+    transition: 0.3s;
+}
+
+.logo .menu .item {
+    font-size: 22px;
+}
+
+.logo .menu ul li:hover{
+    background-color: var(--cordeborda);
+}
+
+main .lateral {
+    position: relative;
+    height: 83vh;
+    width: 220px;
+    border: 3px solid var(--cordeborda);
+    margin: none;
+    padding: 10px;
+}
+
+main .lateral .menu-lateral {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+
+main .lateral .menu-lateral li {
+    margin-top: 30px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+main .lateral .menu-lateral .item-lateral {
+    border-right: 2px solid var(--cordeborda);
+    border-bottom: 2px solid var(--cordeborda);
+    border-radius: 10px;
+    padding: 15px 30px;    
+}
+
+main .lateral .menu-lateral ul li:hover {
+    background-color: var(--cordeborda);
+}
