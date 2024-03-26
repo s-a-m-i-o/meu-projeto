@@ -3,7 +3,9 @@ html {
 }
 
 body {
-    background-color: var(--cordefundo);
+    background: var(--cordefundo) url('../img/fundo.png') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
     color: white;
 }
 
@@ -47,6 +49,10 @@ body {
     background-color: var(--cordeborda);
 }
 
+main {
+    display: flex;
+}
+
 main .lateral {
     position: relative;
     height: 83vh;
@@ -78,4 +84,16 @@ main .lateral .menu-lateral .item-lateral {
 
 main .lateral .menu-lateral ul li:hover {
     background-color: var(--cordeborda);
+}
+
+.centro {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centro .centralizado img {
+    width: 500px;
+    
 }
