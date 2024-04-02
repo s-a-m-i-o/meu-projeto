@@ -10,7 +10,7 @@ body {
 }
 
 .logo img {
-    width: 100px;
+    width: 200px;
 }
 
 .logo {
@@ -49,9 +49,6 @@ body {
     background-color: var(--cordeborda);
 }
 
-main {
-    display: flex;
-}
 
 main .lateral {
     position: relative;

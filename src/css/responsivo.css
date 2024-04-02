@@ -1,0 +1,45 @@
+@media (max-width:768px) {
+   .logo {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .logo img {
+    width: 100px;
+   }
+
+   .logo h1 {
+    margin: 5px;
+   }
+
+ .lateral::after {
+    content: "Outros Projetos" ; 
+    margin: auto;
+    font-size: 30px;
+   }
+
+   .logo nav {
+    display: none;
+   }
+
+   main .lateral {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    border: none;
+   }
+
+   main .lateral .menu-lateral ul {
+    display: flex;
+    flex-direction: row;
+}
+
+main .lateral .menu-lateral ul li {
+    margin: 15px;
+}
+
+main .lateral .menu-lateral ul .zero {
+    display: none;
+}
+}
